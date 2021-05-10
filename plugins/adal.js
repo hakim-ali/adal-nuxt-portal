@@ -5,8 +5,8 @@ export default ({ app, error, $axios }, inject) => {
     'adal',
     new Adal({
       config: {
-        tenant: '1cd57418-25f0-4cc7-9650-d531201ffbe4',
-        clientId: 'd47c1ea1-fe98-4dee-b220-6514a8b3dbb8',
+        tenant: 'your aad tenant',
+        clientId: 'your aad application client id',
         redirectUri: 'http://localhost:3000',
         cacheLocation: 'localStorage',
       },

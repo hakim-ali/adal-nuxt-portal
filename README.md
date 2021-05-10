@@ -18,7 +18,7 @@ It will ask you some questions (name, Nuxt options, UI framework, TypeScript, li
 
 Screenshot as reference:
 
-![enter image description here](https://github.com/hakim-ali/adal-nuxt-portal/nuxt-project-settings.png)
+![enter image description here](https://github.com/hakim-ali/adal-nuxt-portal/blob/master/nuxt-project-settings.png)
 
 Once all questions are answered, it will install all the dependencies. The next step is to navigate to the project folder and launch it:
 
@@ -47,7 +47,7 @@ export  default ({ app, error, $axios }, inject) => {
 			config: {
 				tenant: 'your aad tenant',
 				clientId: 'your aad application client id',
-  				redirectUri:  'http://localhost:3000',
+  			redirectUri:  'http://localhost:3000',
 				cacheLocation:  'localStorage',
 			},
 		})
