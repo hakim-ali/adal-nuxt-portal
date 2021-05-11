@@ -6,9 +6,9 @@ The purpose of this example is to demonstrate usage of ADAL JS from the `adal-an
 
 # Authentication with Azure AD with Adal.js in NuxtJS
 
-### 1- Setup Vuejs with Nuxt.js framework
+### 1- Setup Vue.js application with Nuxt.js framework
 
-The first thing to to create vue.js project with Nuxt.js framework using Using [create-nuxt-app](https://nuxtjs.org/docs/2.x/get-started/installation) and you can do that by running the preceding command.
+The first thing is to create a vue.js project with Nuxt.js framework using [create-nuxt-app](https://nuxtjs.org/docs/2.x/get-started/installation) and you can do that by running the preceding command.
 
 ```
 yarn create nuxt-app <project-name>
@@ -140,4 +140,4 @@ $ yarn generate
 
 ### Thanks to
 
-Matt-Ankerson - https://github.com/matt-ankerson/vue-adal
+Matt Ankerson - https://github.com/matt-ankerson/vue-adal
